@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+        background-color: rgb(250, 247, 239);
+        position: relative;
+}
+main {
+    margin: 5px;
+}
+header {
+    background-color: rgb(200, 176, 176);
+    margin: 0;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+li a {
+    color: black;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    margin: 5px;
+}
+.comprar {
+    background-color: rgb(127, 217, 127);
+}
+.container {
+    margin: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.card {
+    margin: 5px;
+    height: 450px;
+}
+.card-img-top {
+    padding: 5px;
+    align-items: center;
+}
+
+/* ESTILOS DE LOS FORMULARIOS DE LAS PAGINAS revendedores.html y contacto.html */
+    /* Aplico estilo geberal al form */
+form{ 
+    
+    padding-left: 0%;
+    padding-right: 50%;
+    font-family: 'Varela Round', sans-serif;
+}
+    /* Aplico estilo class a class */
+form .Nombre{
+    padding:inherit;
+    }
+form .Apellido{
+    padding: inherit;
+    margin-top: 10px;
+}
+form .number{
+    padding: inherit;
+    margin-top: 10px;
+}
+form .Correoelectronico{
+    padding: inherit;
+    margin-top: 10px;
+}
+form .textarea {
+    padding: inherit;
+    margin-top: 10px;
+}
+form .enviar{
+    margin-top: 5px;
+    padding: inherit, 5px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+.whatsapp {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
