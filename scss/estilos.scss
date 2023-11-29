@@ -6,15 +6,17 @@
 body {
     background-color: rgb(250, 247, 239);
     position: relative;
+    margin: 0;
 }
 
 main {
-    margin: 5px;
+    margin: 5px 15px;
+    align-items: baseline;
 }
 
 header {
     background-color: rgb(200, 176, 176);
-    margin: 0;
+    margin:auto;
     position: relative;
     position: sticky;
     top: 0px;
@@ -32,6 +34,7 @@ a {
 
 footer {
     margin: 5px;
+    width: 100%;
 }
 
 .comprar {
@@ -44,12 +47,13 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 18rem;
 }
 
 .card {
     margin: 5px;
     height: 450px;
+    width: 18rem;
 }
 
 .card-img-top {
@@ -101,6 +105,6 @@ form {
     width: 80px;
     height: 80px;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 40px;
+    bottom: 40px;
 }
